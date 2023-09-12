@@ -1,0 +1,63 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar li a:hover {
+    background-color: #ddd;
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+    margin: auto;   
+    border: solid #bbb 2px;
+  }
+
+  .container {
+    text-align: center;
+  }
+  
+  .listas {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lista {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .ciudad {
+    font-weight: bold;
+  }
+  
+  .ciudades {
+    display: none;
+  }
+  
+  .ciudades li {
+    margin-bottom: 5px;
+  }
+  
+  .lista:hover .ciudades {
+    display: block;
+  }
+  
+
+  
